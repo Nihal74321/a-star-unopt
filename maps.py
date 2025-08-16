@@ -30,6 +30,25 @@ class Map:
         self.map[33,15] = 1
         self.map[34,15] = 1
         self.map[35,15] = 1
+        # '2 thick' Diagonal line from x=[16,21] to y=[0,5]
+        self.map[5,15] = 1
+        self.map[6,15] = 1
+        
+        self.map[4,16] = 1
+        self.map[5,16] = 1
+        
+        self.map[3,17] = 1
+        self.map[4,17] = 1
+        
+        self.map[2,18] = 1
+        self.map[3,18] = 1
+        
+        self.map[1,19] = 1
+        self.map[2,19] = 1
+        
+        self.map[1,20] = 1
+        
+        self.map[0,22] = 1
         
         
     def _add_circular_table_(self, xc, yc, radii):

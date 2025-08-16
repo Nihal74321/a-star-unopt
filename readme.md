@@ -66,7 +66,7 @@ Added Start Node (0, 20) and Goal Node (39, 20) for _Agent_.
 Populated print statements with relevant information and formatted appropriately.
 
 ## maps.py
-Added 8 Obstacles to ```maps.py``` consisting of:
+Added 9 Obstacles to ```maps.py``` consisting of:
 1. Circular Table at x:15, y:20 with a radius of 6
 2. Rectangular Table at x:7, y:7 with (4 _w_ x 3 _h_)
 3. Rectangular Table at x:25, y:12 with (6 _w_ x 2 _h_)
@@ -75,6 +75,7 @@ Added 8 Obstacles to ```maps.py``` consisting of:
 6. Rectangular Table at x:33, y:4 with (3 _w_ x 4 _h_)
 7. Rectangular Table at x:14, y:16 with (4 _w_ x 3 _h_)
 8. Wall from x:[31-35], y:15
+9. Diagonal line from x:[16,21] to y:[0,5]
 
 Fixed off-by 1 error in ```get_adjacent_nodes``` method and added check for if Node.x,y being ticked is value of 1 (wall) to print when _Agent_ encounters a wall while exploring.
 ```python
