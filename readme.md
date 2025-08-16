@@ -10,6 +10,7 @@ Provided are _three_ basic heuristic models:
 1. Euclidean Distance
 2. Manhattan Distance (also known as Taxicab geometry)
 3. Chebyshev Distance (also known as maximum metric)
+
 These can be found at the beginning of the Algorithms section in the Jupyter notebook. 
 
 ## A_Star_Search.ipynb
