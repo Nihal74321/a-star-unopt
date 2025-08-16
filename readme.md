@@ -1,4 +1,5 @@
-#Introduction
+# Introduction
+
 A comprehensive summary of all changes made to ```A_Star_Search``` and ```maps.py```. Originally provided by The Coding Academy and later, Toi Ohomai Institute of Technology. All code changes were made by Nihal Dharmaraj.
 
 This serves as documentation for an implementation of the A* Pathfinding algorithm originally authored by The Coding Academy. The original broken code can be seen in the _Original-Code_ branch.
