@@ -21,7 +21,7 @@ class Map:
         self._add_rectangular_table_(7,7,4,3)
         self._add_rectangular_table_(25,12,6,2)
         self._add_rectangular_table_(27,27,4,4)
-        self._add_rectangular_table_(7,27,2,2)
+        self._add_circular_table_(7,27,2)
         self._add_rectangular_table_(33,4,3,4)
         self._add_rectangular_table_(14,16,4,3)
         # Wall from x=[31 - 35] on y = 15
