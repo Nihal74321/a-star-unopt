@@ -111,7 +111,7 @@ class DiscreteMap(Map):
                 if not (i == 0 and j == 0):
                     new_node = Node(node.x + i, node.y + j)
                     if self._in_bounds_(new_node):
-                        if self.map[new_node.x, new_node.y] == 0:
+                        if self.map[new_node.x, new_node.y] == 0: 
                             adjacent_nodes.append(new_node)
                         elif self.map[new_node.x, new_node.y] == 1:
                             print(f"Obstacle encoutered at: {new_node.x, new_node.y}") # append obstacles encountered when exploring paths
