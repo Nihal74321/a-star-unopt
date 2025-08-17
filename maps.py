@@ -50,6 +50,13 @@ class Map:
         
         self.map[0,22] = 1
         
+        # Obstacles designed specifically for benchmarking BFS [(0, 20) -> (39, 0)]
+        self._add_circular_table_(5,33,2)
+        self._add_rectangular_table_(12,33,3,4)
+        self._add_rectangular_table_(32,35,3,4)
+        self._add_rectangular_table_(37,26,2,3)
+        
+        
         
     def _add_circular_table_(self, xc, yc, radii):
 
@@ -114,7 +121,8 @@ class DiscreteMap(Map):
                         if self.map[new_node.x, new_node.y] == 0: 
                             adjacent_nodes.append(new_node)
                         elif self.map[new_node.x, new_node.y] == 1:
-                            print(f"Obstacle encoutered at: {new_node.x, new_node.y}") # append obstacles encountered when exploring paths
+                            pass
+                            # print(f"Obstacle encoutered at: {new_node.x, new_node.y}") # append obstacles encountered when exploring paths
 
         return adjacent_nodes
 
